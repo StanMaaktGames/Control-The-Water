@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16272 MB
+Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'nl' Physical Memory: 7502 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.31f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/stan/Documents/Github/Control-The-Water/Control The Water Main
+C:/Users/stanm/OneDrive/Documenten/GitHub/Control-The-Water/Control The Water Main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54045
-Successfully changed project path to: C:/Users/stan/Documents/Github/Control-The-Water/Control The Water Main
-C:/Users/stan/Documents/Github/Control-The-Water/Control The Water Main
+64696
+Successfully changed project path to: C:/Users/stanm/OneDrive/Documenten/GitHub/Control-The-Water/Control The Water Main
+C:/Users/stanm/OneDrive/Documenten/GitHub/Control-The-Water/Control The Water Main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/stan/Documents/Github/Control-The-Water/Control The Water Main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6500] Host "[IP] 192.168.2.196 [Port] 0 [Flags] 2 [Guid] 3979220915 [EditorId] 3979220915 [Version] 1048832 [Id] WindowsEditor(7,Stans-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28016] Host "[IP] 192.168.5.53 [Port] 0 [Flags] 2 [Guid] 1024727130 [EditorId] 1024727130 [Version] 1048832 [Id] WindowsEditor(7,stans_laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6500] Host "[IP] 192.168.2.196 [Port] 0 [Flags] 2 [Guid] 3979220915 [EditorId] 3979220915 [Version] 1048832 [Id] WindowsEditor(7,Stans-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28016] Host "[IP] 192.168.5.53 [Port] 0 [Flags] 2 [Guid] 1024727130 [EditorId] 1024727130 [Version] 1048832 [Id] WindowsEditor(7,stans_laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 23.43 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 164.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.30f1 (70558241b701)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/stan/Documents/Github/Control-The-Water/Control The Water Main/Assets
+Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/stanm/OneDrive/Documenten/GitHub/Control-The-Water/Control The Water Main/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x24c9)
-    Vendor:   NVIDIA
-    VRAM:     8038 MB
-    Driver:   31.0.15.3623
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3751 MB
+    Driver:   31.0.21910.4002
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010116 seconds.
-- Loaded All Assemblies, in  0.434 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014084 seconds.
+- Loaded All Assemblies, in  1.015 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.333 seconds
-Domain Reload Profiling: 763ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1727ms
+	BeginReloadAssembly (350ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (149ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (347ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (343ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (333ms)
+	FinalizeReload (717ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (264ms)
+		SetupLoadedEditorAssemblies (587ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (20ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (181ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,59 +115,58 @@ Domain Reload Profiling: 763ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.635 seconds
-Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.174 seconds
+Refreshing native plugins compatible for Editor in 10.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.555 seconds
-Domain Reload Profiling: 1185ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  1.256 seconds
+Domain Reload Profiling: 2427ms
+	BeginReloadAssembly (300ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (315ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (722ms)
+		LoadAssemblies (569ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (148ms)
-				TypeCache.ScanAssembly (134ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (555ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (412ms)
+		SetupLoadedEditorAssemblies (954ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 8.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3554.
-Memory consumption went from 119.3 MB to 119.2 MB.
-Total: 4.401000 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.147000 ms MarkObjects: 3.636600 ms  DeleteObjects: 0.153100 ms)
+Memory consumption went from 119.0 MB to 119.0 MB.
+Total: 6.386400 ms (FindLiveObjects: 0.414900 ms CreateObjectMapping: 0.232200 ms MarkObjects: 5.559200 ms  DeleteObjects: 0.178200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -181,65 +180,1017 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 437324.181924 seconds.
-  path: Assets/Modle
-  artifactKey: Guid(fb7e520c5ee045a46841c96a35835067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modle using Guid(fb7e520c5ee045a46841c96a35835067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bdecf26d0fcf1aa4214e471327e12b') in 0.003227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.583160 seconds.
-  path: Assets/Models
-  artifactKey: Guid(fb7e520c5ee045a46841c96a35835067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(fb7e520c5ee045a46841c96a35835067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcbd66099d097701bb5d97354de5c31') in 0.000504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.252971 seconds.
-  path: Assets/Models/Scripts
-  artifactKey: Guid(c6d0f2eb950119843bcefaa7c8596172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Scripts using Guid(c6d0f2eb950119843bcefaa7c8596172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8410737f0fdf69c99b8f7ab98980d16') in 0.000562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.604623 seconds.
+  Time since last request: 247985.711601 seconds.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.000365 seconds
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.032422 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.967066 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(27caff20f2821254bba83888ffb6f115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(27caff20f2821254bba83888ffb6f115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ef7570ea9202a7090d3b87cab65d4a') in 0.000456 seconds
+  Time since last request: 7.341338 seconds.
+  path: Assets/Map
+  artifactKey: Guid(7f2ceb7019b3b674cbec95d618749131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map using Guid(7f2ceb7019b3b674cbec95d618749131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7c9763384c474cb68e1859d955c75b1') in 0.000652 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 13.785918 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(59b8b4f1c29286d4bac373a3208ca1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(59b8b4f1c29286d4bac373a3208ca1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120846ef04747834c289eddd2d0fcd6f') in 0.000513 seconds
+  Time since last request: 25.122343 seconds.
+  path: Assets/Map/themap.fbx
+  artifactKey: Guid(e96cd4e1102f00a47ba33ed9ce8f199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/themap.fbx using Guid(e96cd4e1102f00a47ba33ed9ce8f199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dae16292712c4a633ae979b017a9d81d') in 1.059252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 28.080149 seconds.
+  path: Assets/Map/Trees
+  artifactKey: Guid(ed6b96beb12681a41bed0ea34e004a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees using Guid(ed6b96beb12681a41bed0ea34e004a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dfded4505021eb3c7a781199fc51c7a0') in 0.001018 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.046016 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2418d44e161e3ce2e8daeaa5c00c20e4') in 0.000505 seconds
+  Time since last request: 107.182851 seconds.
+  path: Assets/Map/Trees/acacia.fbx
+  artifactKey: Guid(0466238530a65034f9af6c4946da7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/acacia.fbx using Guid(0466238530a65034f9af6c4946da7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2138661d055992a5b64c2088a4faa6c5') in 0.380569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 17.720173 seconds.
+  path: Assets/Map/Trees/Material.002.mat
+  artifactKey: Guid(59f0ccfefe064894fa2cd1eb071abeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Material.002.mat using Guid(59f0ccfefe064894fa2cd1eb071abeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e5209b339671b08bde0f9dd716ce82e4') in 0.017276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.916319 seconds.
+  path: Assets/Map/Trees/Leaves.mat
+  artifactKey: Guid(59f0ccfefe064894fa2cd1eb071abeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Leaves.mat using Guid(59f0ccfefe064894fa2cd1eb071abeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '820ef20c7d37d48a02f6077686c68bd0') in 0.027059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.755761 seconds.
+  path: Assets/Map/Trees/Material.001.mat
+  artifactKey: Guid(da67c8529da02a441be1b0790a738313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Material.001.mat using Guid(da67c8529da02a441be1b0790a738313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8fa09e335406416161e51b9b9365579a') in 0.018481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.795090 seconds.
+  path: Assets/Map/Trees/Trunk.mat
+  artifactKey: Guid(da67c8529da02a441be1b0790a738313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Trunk.mat using Guid(da67c8529da02a441be1b0790a738313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5ef80cf8a9781671b9c2e326f847a4a') in 0.019908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.799492 seconds.
+  path: Assets/Map/Trees/acacia
+  artifactKey: Guid(8f55bb1fc8d5b9646b4f7a582a2f6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/acacia using Guid(8f55bb1fc8d5b9646b4f7a582a2f6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35b620a9c0b22d4f7eab89390a72dc26') in 0.001731 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 15.965442 seconds.
-  path: Assets/Scenes/Africa.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Africa.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcece961abe33e737c5ce91bad5235f1') in 0.000525 seconds
+  Time since last request: 3.340329 seconds.
+  path: Assets/Map/Trees/acacia/Trunk.mat
+  artifactKey: Guid(da67c8529da02a441be1b0790a738313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/acacia/Trunk.mat using Guid(da67c8529da02a441be1b0790a738313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0488c205d2dbf63bea8dada361f7bb1a') in 0.033754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.778087 seconds.
+  path: Assets/Map/Trees/acacia/M_acacia.fbx
+  artifactKey: Guid(0466238530a65034f9af6c4946da7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/acacia/M_acacia.fbx using Guid(0466238530a65034f9af6c4946da7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ccd1a8835e5a81915c11ad66b154305b') in 0.188962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 13.069910 seconds.
+  path: Assets/Map/Trees/acacia/acacia.prefab
+  artifactKey: Guid(91d76ddcff7623045ae9e48d0de74ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/acacia/acacia.prefab using Guid(91d76ddcff7623045ae9e48d0de74ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d573a1fbc96efd6cdda7417654770fc') in 0.087714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 16.426964 seconds.
+  path: Assets/Map/Trees/acacia/Acacia.prefab
+  artifactKey: Guid(91d76ddcff7623045ae9e48d0de74ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/acacia/Acacia.prefab using Guid(91d76ddcff7623045ae9e48d0de74ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '714c028be3ba9de8091600200551c87f') in 0.060311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 13.875690 seconds.
+  path: Assets/Map/Trees/Acacia
+  artifactKey: Guid(8f55bb1fc8d5b9646b4f7a582a2f6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Acacia using Guid(8f55bb1fc8d5b9646b4f7a582a2f6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7bcbbd138d75654b4d437a6cc61e687b') in 0.001041 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 101.625844 seconds.
+  path: Assets/Map/Trees/Tropische Boom
+  artifactKey: Guid(30267cac64e1c0b4caf816d09640b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Tropische Boom using Guid(30267cac64e1c0b4caf816d09640b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7ed05fcb5b1c160174cf84cee724c073') in 0.004433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.800126 seconds.
+  path: Assets/Map/Trees/Tropische Boom/M_Tropische Boom.fbx
+  artifactKey: Guid(91bddc91298ee2f42b18248985aa7a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Tropische Boom/M_Tropische Boom.fbx using Guid(91bddc91298ee2f42b18248985aa7a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8cc06b6351dd4c3e5c02aa95fb8fd258') in 0.058806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 22.875656 seconds.
+  path: Assets/Map/Trees/Tropische Boom/Tropische Boom.prefab
+  artifactKey: Guid(48ca1d250f9e0bc49bff935e0465ba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Tropische Boom/Tropische Boom.prefab using Guid(48ca1d250f9e0bc49bff935e0465ba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23ca7ec66cffe2783c076c4d61948b4d') in 0.029988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.917762 seconds.
+  path: Assets/Map/Trees/Tropische Boom/bladeren.mat
+  artifactKey: Guid(f6a8a4f79c8b38648bd3f4fac8e7ffd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Tropische Boom/bladeren.mat using Guid(f6a8a4f79c8b38648bd3f4fac8e7ffd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab3ae8b728785325516ca1e35c611430') in 0.019610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.001964 seconds.
+  path: Assets/Map/Trees/Tropische Boom/stam.mat
+  artifactKey: Guid(3ce2cb959276e5144a030870df572e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Tropische Boom/stam.mat using Guid(3ce2cb959276e5144a030870df572e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a98cfaac4c0d4a3bed78442c4babb3e') in 0.024559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.054967 seconds.
+  path: Assets/Map/Trees/Models
+  artifactKey: Guid(7ece93abdb7b04249bb6fb570edf1916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Trees/Models using Guid(7ece93abdb7b04249bb6fb570edf1916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2060a11f5fbc404a636f5316e36a30d4') in 0.001170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 218.159105 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.015488 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009281 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.010568 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028812 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005397 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031088 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004807 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020080 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005209 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022790 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005315 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038935 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003668 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059412 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.007978 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001976 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003654 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032922 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003345 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027731 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003663 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019815 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004189 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003966 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003772 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019790 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004605 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016701 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003470 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005533 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004105 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020632 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004643 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017903 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003864 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017358 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004056 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020159 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004802 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024527 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005317 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001467 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004270 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024283 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005546 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029984 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.006277 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033428 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004546 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036272 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003697 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026445 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004576 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021931 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005381 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027715 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003256 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034135 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004350 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028229 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003324 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029233 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003275 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024068 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004755 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020627 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004296 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003308 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.006535 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014488 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004256 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016431 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003789 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024663 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004781 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021107 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003502 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021054 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004087 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019751 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.006202 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031560 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003733 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005710 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.006738 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031314 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003356 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031301 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004459 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010285 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003549 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028539 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004122 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011483 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003131 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026641 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003760 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038271 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003824 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030435 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004707 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029116 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004265 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034368 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003396 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043605 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003499 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023690 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004509 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029022 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024782 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005806 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030387 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004109 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038355 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003451 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039456 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003169 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032357 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003092 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/Map/House
+  artifactKey: Guid(aa6eb9ecb97072c4dab0217d9851d5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House using Guid(aa6eb9ecb97072c4dab0217d9851d5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7239562172440e8f628ebed9398a0f63') in 0.000873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047383 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003496 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+  ERROR: Build asset version error: assets/map/house/m_africanhouse.fbx in SourceAssetDB has modification time of '2024-06-12T09:14:51.1157979Z' while content on disk has modification time of '2024-06-12T09:14:52.19509Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.705142 seconds.
+  path: Assets/Map/House/M_AfricanHouse.fbx
+  artifactKey: Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/House/M_AfricanHouse.fbx using Guid(79939d72460ff5c409921c0d16034411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'afb5a2231870ccbb77f3613c6a531f0a') in 2.109345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42352
