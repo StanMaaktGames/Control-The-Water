@@ -8811,6 +8811,7 @@ GameObject:
   - component: {fileID: 664656861298756949}
   - component: {fileID: 4532295710599592783}
   - component: {fileID: 3909314341177979994}
+  - component: {fileID: 3488467569145051633}
   m_Layer: 9
   m_Name: hamburger
   m_TagString: Untagged
@@ -9170,10 +9171,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthRestored: 30
-  hydrationRestored: -5
+  hydrationRestored: -10
   uses: 1
   destoryAfterUsing: 1
 --- !u!65 &3909314341177979994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388021022527514195}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8, y: 2, z: 1.8}
+  m_Center: {x: 0, y: -0.25, z: 0}
+--- !u!65 &3488467569145051633
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

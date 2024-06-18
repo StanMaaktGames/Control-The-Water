@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private float moveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
+    public float thirstyWalkSpeed;
 
     public float groundDrag;
 
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
     public float lionDamage = -60f;
     float health;
     float hydration;
+    public float thirstLoseHealthSpeed = 5f;
 
     [Header("Interacting")]
     public float interactRange = 4f;
@@ -146,6 +148,16 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (hydration <= 0)
+        {
+            health -= Time.deltaTime * thirstLoseHealthSpeed;
+        }
+
+        if (health <= 0)
+        {
+            gameManager.GetComponent<GameManager>().Respawn();
+        }
+
         hydration -= Time.deltaTime * thirstSpeed;
 
         staminaSlider.value = stamina;
@@ -208,7 +220,14 @@ public class PlayerController : MonoBehaviour
             else
             {
                 state = MovementState.walking;
-                moveSpeed = walkSpeed;
+                if (hydration <= 0)
+                {
+                    moveSpeed = thirstyWalkSpeed;
+                }
+                else
+                {
+                    moveSpeed = walkSpeed;
+                }
             }
         }
 
@@ -216,7 +235,14 @@ public class PlayerController : MonoBehaviour
         else if(grounded)
         {
             state = MovementState.walking;
-            moveSpeed = walkSpeed;
+            if (hydration <= 0)
+            {
+                moveSpeed = thirstyWalkSpeed;
+            }
+            else
+            {
+                moveSpeed = walkSpeed;
+            }
         }
 
         // mode - air
@@ -313,10 +339,6 @@ public class PlayerController : MonoBehaviour
         if (health > maxHealth)
         {
             health = maxHealth;
-        }
-        else if (health <= 0)
-        {
-            gameManager.GetComponent<GameManager>().Respawn();
         }
         if (hydration > maxHydration)
         {
