@@ -127,6 +127,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7943721341747674672, guid: 5f6993614cde8114a9cbc9d5e75fa8ad, type: 3}
   m_PrefabInstance: {fileID: 2081065302115837377}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &16164848 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1591798553828946999, guid: 5f6993614cde8114a9cbc9d5e75fa8ad, type: 3}
+  m_PrefabInstance: {fileID: 2081065302115837377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &37229734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1506,37 +1511,15 @@ GameObject:
   - component: {fileID: 722245866}
   - component: {fileID: 722245865}
   - component: {fileID: 722245864}
-  - component: {fileID: 722245863}
   - component: {fileID: 722245867}
+  - component: {fileID: 722245868}
   m_Layer: 4
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &722245863
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722245862}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &722245864
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1618,6 +1601,27 @@ MonoBehaviour:
   hydrationRestored: 5
   uses: -1
   destoryAfterUsing: 0
+--- !u!65 &722245868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722245862}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 624.90454, z: 10}
+  m_Center: {x: 0, y: -312.45227, z: 0}
 --- !u!4 &761943318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318548980460004718, guid: 5f6993614cde8114a9cbc9d5e75fa8ad, type: 3}
@@ -3496,6 +3500,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &819318113582446150
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698076981400397806}
+  serializedVersion: 4
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &2081065302115837377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3586,9 +3617,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1591798553828946999, guid: 5f6993614cde8114a9cbc9d5e75fa8ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7544291745677864343}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f6993614cde8114a9cbc9d5e75fa8ad, type: 3}
+--- !u!65 &6471129791964038210
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698076981400397806}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 16
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &6607344200241536132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3658,6 +3713,54 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab5133743e1c3cb40b0f13398ed8c04c, type: 3}
+--- !u!114 &6630370755357691152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698076981400397806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2d384df84edae4d9012e37c0ec34b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 16164847}
+  drownSpeed: 50
+--- !u!4 &7544291745677864343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698076981400397806}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16164848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8698076981400397806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7544291745677864343}
+  - component: {fileID: 6471129791964038210}
+  - component: {fileID: 6630370755357691152}
+  - component: {fileID: 819318113582446150}
+  m_Layer: 0
+  m_Name: PlayerDetectWater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
