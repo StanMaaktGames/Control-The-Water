@@ -163,7 +163,7 @@ MonoBehaviour:
   maxHealth: 100
   maxHydration: 100
   thirstSpeed: 1
-  lionDamage: 40
+  lionDamage: -60
   interactRange: 4
   interactLayers:
     serializedVersion: 2
