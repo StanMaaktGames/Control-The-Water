@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
     public float maxHealth = 100f;
     public float maxHydration = 100f;
     public float thirstSpeed = 1f;
-    public float lionDamage = 40f;
+    public float lionDamage = -60f;
     float health;
     float hydration;
 
