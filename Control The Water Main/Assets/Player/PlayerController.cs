@@ -139,7 +139,6 @@ public class PlayerController : MonoBehaviour
                     }
                     hit.collider.gameObject.GetComponent<Food>().Interact(gameObject);
                 }
-                hit.collider.gameObject.GetComponent<Food>().Interact(gameObject);
 
                 Word = RandomHints[Random.Range(0, RandomHints.Length)];
                 Hints.text = Word;
