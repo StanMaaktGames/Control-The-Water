@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public float jumpCooldown;
     public float airMultiplier;
     bool readyToJump;
+    public MovementState state;
 
     [Header("Crouching")]
     public float crouchSpeed;
@@ -67,6 +69,11 @@ public class PlayerController : MonoBehaviour
     public GameObject gameManager;
     public GameObject playerCam;
 
+    [Header("Hints")]
+    public TextMeshProUGUI Hints;
+    public string[] RandomHints = { "Hint1" , "Hint2", "Hint3"};
+    private string Word;
+
     float horizontalInput;
     float verticalInput;
 
@@ -74,7 +81,6 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rb;
 
-    public MovementState state;
     public enum MovementState
     {
         walking,
@@ -94,6 +100,7 @@ public class PlayerController : MonoBehaviour
         stamina = maxStamina;
 
         startYScale = transform.localScale.y;
+        Word = RandomHints[Random.Range(0, RandomHints.Length)];
     }
 
     void Update()
@@ -123,10 +130,14 @@ public class PlayerController : MonoBehaviour
                     Debug.Log("ERRORERRORERRORERROR");
                 }
                 hit.collider.gameObject.GetComponent<Food>().Interact(gameObject);
+
+                Word = RandomHints[Random.Range(0, RandomHints.Length)];
+                Hints.text = Word;
             }
             else
             {
-                Debug.DrawRay(transform.position, playerCam.transform.forward * interactRange, Color.red, 2, false);
+                Word = RandomHints[Random.Range(0, RandomHints.Length)];
+                Hints.text = Word;
             }
         }
 
@@ -142,8 +153,8 @@ public class PlayerController : MonoBehaviour
         hydration -= Time.deltaTime * thirstSpeed;
 
         staminaSlider.value = stamina;
-        healthSlider.value = health; 
-        hydrationSlider.value = hydration;     
+        healthSlider.value = health;
+        hydrationSlider.value = hydration;
     }
 
     void FixedUpdate()
