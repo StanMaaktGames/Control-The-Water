@@ -10,14 +10,7 @@ public class Timer : MonoBehaviour
     int minutes;
     int seconds;
     bool stopTimer = false;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (!stopTimer)
@@ -30,7 +23,7 @@ public class Timer : MonoBehaviour
 
         GetComponent<TMPro.TextMeshProUGUI>().text = minutes.ToString() + ":" + seconds.ToString();
 
-        if (time <= 0)
+        if (time <= 0.1)
         {
             boat.GetComponent<BoatController>().Interact();
         }
