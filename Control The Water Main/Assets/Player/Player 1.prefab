@@ -31,7 +31,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1591798553828946999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6540951199463329658
+--- !u!1 &6430211933958246293
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,10 +39,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1151510459368070361}
-  - component: {fileID: 498101427851511204}
-  - component: {fileID: 6157528032069406844}
-  - component: {fileID: 5532286610448630789}
+  - component: {fileID: 5277022624622970348}
+  - component: {fileID: 8667009274408774713}
+  - component: {fileID: 9046247671088260459}
+  - component: {fileID: 3087138632949014077}
   m_Layer: 0
   m_Name: PlayerDetectWater
   m_TagString: Untagged
@@ -50,28 +50,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1151510459368070361
+--- !u!4 &5277022624622970348
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6540951199463329658}
+  m_GameObject: {fileID: 6430211933958246293}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1591798553828946999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &498101427851511204
+--- !u!65 &8667009274408774713
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6540951199463329658}
+  m_GameObject: {fileID: 6430211933958246293}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -86,27 +86,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &6157528032069406844
+--- !u!114 &9046247671088260459
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6540951199463329658}
+  m_GameObject: {fileID: 6430211933958246293}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b2d384df84edae4d9012e37c0ec34b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5602b4e29db62db4e895807a32a0c2fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7943721341747674672}
   drownSpeed: 50
---- !u!54 &5532286610448630789
+--- !u!54 &3087138632949014077
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6540951199463329658}
+  m_GameObject: {fileID: 6430211933958246293}
   serializedVersion: 4
   m_Mass: 0.0000001
   m_Drag: 0
@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 1591798553828946999}
   - component: {fileID: 6551186169909782223}
   - component: {fileID: 1006267782366126962}
+  - component: {fileID: 6520980398589020277}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -192,7 +193,7 @@ Transform:
   - {fileID: 61224029326909556}
   - {fileID: 8541603638024842870}
   - {fileID: 1318548980460004718}
-  - {fileID: 1151510459368070361}
+  - {fileID: 5277022624622970348}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &6551186169909782223
@@ -249,7 +250,7 @@ MonoBehaviour:
   maxSlopeAngle: 40
   jumpKey: 32
   sprintKey: 304
-  crouchKey: 306
+  crouchKey: 99
   staminaSlider: {fileID: 0}
   maxStamina: 100
   staminaRechargeSpeed: 30
@@ -260,7 +261,7 @@ MonoBehaviour:
   maxHealth: 100
   maxHydration: 100
   thirstSpeed: 1
-  lionDamage: -40
+  lionDamage: 40
   interactRange: 4
   interactLayers:
     serializedVersion: 2
@@ -269,6 +270,27 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   playerCam: {fileID: 0}
   state: 3
+--- !u!95 &6520980398589020277
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943721341747674672}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9030265257323194835
 GameObject:
   m_ObjectHideFlags: 0
