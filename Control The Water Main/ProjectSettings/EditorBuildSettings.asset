@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/REALAfrica.unity
+    guid: 1c8b64bc2293f4c4b9395d4cbfe9e946
   m_configObjects: {}
