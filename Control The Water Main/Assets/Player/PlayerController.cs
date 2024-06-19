@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
     [Header("Interacting")]
     public float interactRange = 4f;
     public LayerMask interactLayers;
+    public GameObject endingText;
 
     [Header("Other")]
 
@@ -129,6 +130,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(hit.collider.gameObject.GetComponent<Food>());
                 if (hit.collider.gameObject.CompareTag("Boat"))
                 {
+                    endingText.GetComponent<EndingText>().Win();
                     hit.collider.gameObject.GetComponent<BoatController>().Interact();
                 }
                 else
