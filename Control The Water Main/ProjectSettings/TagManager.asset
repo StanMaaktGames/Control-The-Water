@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy Weapon
   - Water
+  - Boat
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Ground
   - Player
   - Interactable
-  - 
+  - PostProcessing
   - 
   - 
   - 
